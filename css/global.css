@@ -1,0 +1,119 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.sec-1 .container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.sec-1 .container:hover {
+  background-color: lightcoral;
+}
+.sec-1 .container .box {
+  height: 200px;
+  width: 200px;
+}
+.sec-1 .container .box.box1 {
+  background-color: pink;
+}
+.sec-1 .container .box.box2 {
+  background-color: purple;
+}
+.sec-1 .container .box.box3 {
+  background-color: deeppink;
+}
+
+.sec-2 .container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.sec-2 .container .box {
+  height: 150px;
+  width: 150px;
+}
+.sec-2 .container .box.box1 {
+  background-color: yellow;
+}
+.sec-2 .container .box.box2 {
+  background-color: pink;
+}
+.sec-2 .container .box.box3 {
+  background-color: greenyellow;
+}
+
+.sec-3 {
+  display: flex;
+}
+.sec-3 button {
+  height: 50px;
+  width: 150px;
+  border-radius: 5px;
+  border: none;
+  background: pink;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 10px;
+}/*# sourceMappingURL=global.css.map */

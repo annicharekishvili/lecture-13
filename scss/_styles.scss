@@ -1,0 +1,59 @@
+.sec-1 {
+    .container {
+        @include myContainer;
+        @include flexContainer;
+        justify-content: space-between;
+
+        &:hover {
+            background-color: $secodnary-color;
+        }
+
+        .box {
+            height: 200px;
+            width: 200px;
+
+            &.box1 {
+                background-color: $main-color;
+            }
+            
+            &.box2 {
+                background-color: purple;
+            }
+            
+            &.box3 {
+                background-color: deeppink;
+            }
+        }
+    }
+}
+
+.sec-2 {
+    .container {
+        @include myContainer;
+        @include flexContainer;
+        justify-content: space-between;
+
+        .box {
+            height: 150px;
+            width: 150px;
+            &.box1 {
+                background-color: yellow;
+            }
+            
+            &.box2 {
+                background-color: $main-color;
+            }
+            
+            &.box3 {
+                background-color: greenyellow;
+            }
+        }
+    }
+}
+
+.sec-3 {
+    display: flex;
+    button {
+        @include myButton;
+    }
+}
